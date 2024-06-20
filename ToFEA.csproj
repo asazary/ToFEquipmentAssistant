@@ -1,0 +1,124 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\Icon_Equipment_Fortress_Armor.png" />
+    <None Remove="images\Icon_Equipment_Fortress_Belt.png" />
+    <None Remove="images\Icon_Equipment_Fortress_Bracers.png" />
+    <None Remove="images\Icon_Equipment_Fortress_Combat_Engine.png" />
+    <None Remove="images\Icon_Equipment_Fortress_Exoskeleton.png" />
+    <None Remove="images\Icon_Equipment_Fortress_Handguards.png" />
+    <None Remove="images\Icon_Equipment_Fortress_Helm.png" />
+    <None Remove="images\Icon_Equipment_Fortress_Legguards.png" />
+    <None Remove="images\Icon_Equipment_Fortress_Microreactor.png" />
+    <None Remove="images\Icon_Equipment_Fortress_Sabatons.png" />
+    <None Remove="images\Icon_Equipment_Fortress_Spaulders.png" />
+    <None Remove="images\Icon_Equipment_Fortress_Tactics_Eyepiece.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\Icon_Equipment_Fortress_Armor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Icon_Equipment_Fortress_Belt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Icon_Equipment_Fortress_Bracers.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Icon_Equipment_Fortress_Combat_Engine.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Icon_Equipment_Fortress_Exoskeleton.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Icon_Equipment_Fortress_Handguards.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Icon_Equipment_Fortress_Helm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Icon_Equipment_Fortress_Legguards.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Icon_Equipment_Fortress_Microreactor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Icon_Equipment_Fortress_Sabatons.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Icon_Equipment_Fortress_Spaulders.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Icon_Equipment_Fortress_Tactics_Eyepiece.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="basedata.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="equipment.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="images\Icon_Equipment_Fortress_Armor.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="images\Icon_Equipment_Fortress_Belt.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="images\Icon_Equipment_Fortress_Bracers.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="images\Icon_Equipment_Fortress_Combat_Engine.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="images\Icon_Equipment_Fortress_Exoskeleton.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="images\Icon_Equipment_Fortress_Handguards.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="images\Icon_Equipment_Fortress_Helm.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="images\Icon_Equipment_Fortress_Legguards.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="images\Icon_Equipment_Fortress_Microreactor.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="images\Icon_Equipment_Fortress_Sabatons.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="images\Icon_Equipment_Fortress_Spaulders.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="images\Icon_Equipment_Fortress_Tactics_Eyepiece.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Readme.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="tofeadata.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

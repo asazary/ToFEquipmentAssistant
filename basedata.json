@@ -1,0 +1,719 @@
+{
+	"EquipmentType": [
+		{
+			"Id": 1,
+			"Name": "Helmet",
+			"ShortName": "Helmet",
+			"Generation": 1,
+			"PossibleStats": [ 1, 2, 3, 4, 5, 14, 16, 17, 18, 19, 20 ],
+			"PossibleTitanStats": [],
+			"IconName": "Icon_Equipment_Fortress_Helm.png"
+		},
+		{
+			"Id": 2,
+			"Name": "Spaulders",
+			"ShortName": "Spaulders",
+			"Generation": 1,
+			"PossibleStats": [ 1, 2, 3, 4, 5, 14, 16, 17, 18, 19, 20 ],
+			"PossibleTitanStats": [],
+			"IconName": "Icon_Equipment_Fortress_Spaulders.png"
+		},
+		{
+			"Id": 3,
+			"Name": "Armor",
+			"ShortName": "Armor",
+			"Generation": 1,
+			"PossibleStats": [ 1, 2, 3, 4, 5, 14, 16, 17, 18, 19, 20 ],
+			"PossibleTitanStats": [1, 2, 6, 7, 8, 9],
+			"IconName": "Icon_Equipment_Fortress_Armor.png"
+		},
+		{
+			"Id": 4,
+			"Name": "Bracers",
+			"ShortName": "Bracers",
+			"Generation": 1,
+			"PossibleStats": [ 1, 2, 3, 4, 5, 14, 16, 17, 18, 19, 20 ],
+			"PossibleTitanStats": [1, 2, 4, 6, 7, 8],
+			"IconName": "Icon_Equipment_Fortress_Bracers.png"
+		},
+		{
+			"Id": 5,
+			"Name": "Belt",
+			"ShortName": "Belt",
+			"Generation": 1,
+			"PossibleStats": [ 1, 2, 3, 4, 5, 14, 16, 17, 18, 19, 20 ],
+			"PossibleTitanStats": [],
+			"IconName": "Icon_Equipment_Fortress_Belt.png"
+		},
+		{
+			"Id": 6,
+			"Name": "Handguards",
+			"ShortName": "Hands",
+			"Generation": 1,
+			"PossibleStats": [ 1, 2, 3, 4, 5, 14, 16, 17, 18, 19, 20, 25 ],
+			"PossibleTitanStats": [1, 2, 3, 4, 5, 6],
+			"IconName": "Icon_Equipment_Fortress_Handguards.png"
+
+		},
+		{
+			"Id": 7,
+			"Name": "Legguards",
+			"ShortName": "Leggs",
+			"Generation": 1,
+			"PossibleStats": [ 1, 2, 3, 4, 5, 14, 16, 17, 18, 19, 20 ],
+			"PossibleTitanStats": [3, 9, 10, 11, 12, 13],
+			"IconName": "Icon_Equipment_Fortress_Legguards.png"
+		},
+		{
+			"Id": 8,
+			"Name": "Boots",
+			"ShortName": "Boots",
+			"Generation": 1,
+			"PossibleStats": [ 1, 2, 3, 4, 5, 14, 16, 17, 18, 19, 20, 25 ],
+			"PossibleTitanStats": [3, 4, 10, 11, 12, 13],
+			"IconName": "Icon_Equipment_Fortress_Sabatons.png"
+
+		},
+		{
+			"Id": 9,
+			"Name": "Eyepiece",
+			"ShortName": "Eyes",
+			"Generation": 2,
+			"PossibleStats": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29 ],
+			"PossibleTitanStats": [],
+			"IconName": "Icon_Equipment_Fortress_Tactics_Eyepiece.png"
+
+		},
+		{
+			"Id": 10,
+			"Name": "Combat Engine",
+			"ShortName": "Engine",
+			"Generation": 2,
+			"PossibleStats": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ],
+			"PossibleTitanStats": [],
+			"IconName": "Icon_Equipment_Fortress_Combat_Engine.png"
+		},
+		{
+			"Id": 11,
+			"Name": "Exoskeleton",
+			"ShortName": "Exo",
+			"Generation": 2,
+			"PossibleStats": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ],
+			"PossibleTitanStats": [],
+			"IconName": "Icon_Equipment_Fortress_Exoskeleton.png"
+		},
+		{
+			"Id": 12,
+			"Name": "Microreactor",
+			"ShortName": "Reactor",
+			"Generation": 2,
+			"PossibleStats": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ],
+			"PossibleTitanStats": [7, 9, 10, 11, 12, 13],
+			"IconName": "Icon_Equipment_Fortress_Microreactor.png"
+		}
+	],
+
+	"PossibleStats": [
+		{
+			"Id": 1,
+			"Name": "ATK",
+			"IsPercent": false,
+			"InitValue": 52,
+			"MinUpgradeValue": 93,
+			"MaxUpgradeValue": 234
+		},
+		{
+			"Id": 2,
+			"Name": "Volt ATK",
+			"IsPercent": false,
+			"InitValue": 69,
+			"MinUpgradeValue": 125,
+			"MaxUpgradeValue": 312
+		},
+		{
+			"Id": 3,
+			"Name": "Flame ATK",
+			"IsPercent": false,
+			"InitValue": 69,
+			"MinUpgradeValue": 125,
+			"MaxUpgradeValue": 312
+		},
+		{
+			"Id": 4,
+			"Name": "Frost ATK",
+			"IsPercent": false,
+			"InitValue": 69,
+			"MinUpgradeValue": 125,
+			"MaxUpgradeValue": 312
+		},
+		{
+			"Id": 5,
+			"Name": "Phys ATK",
+			"IsPercent": false,
+			"InitValue": 69,
+			"MinUpgradeValue": 125,
+			"MaxUpgradeValue": 312
+		},
+		{
+			"Id": 6,
+			"Name": "Volt ATK %",
+			"IsPercent": true,
+			"InitValue": 1.26,
+			"MinUpgradeValue": 1.44,
+			"MaxUpgradeValue": 1.44
+		},
+		{
+			"Id": 7,
+			"Name": "Flame ATK %",
+			"IsPercent": true,
+			"InitValue": 1.26,
+			"MinUpgradeValue": 1.44,
+			"MaxUpgradeValue": 1.44
+		},
+		{
+			"Id": 8,
+			"Name": "Frost ATK %",
+			"IsPercent": true,
+			"InitValue": 1.26,
+			"MinUpgradeValue": 1.44,
+			"MaxUpgradeValue": 1.44
+		},
+		{
+			"Id": 9,
+			"Name": "Phys ATK %",
+			"IsPercent": true,
+			"InitValue": 1.26,
+			"MinUpgradeValue": 1.44,
+			"MaxUpgradeValue": 1.44
+		},
+		{
+			"Id": 10,
+			"Name": "Volt DMG %",
+			"IsPercent": true,
+			"InitValue": 0.65,
+			"MinUpgradeValue": 0.72,
+			"MaxUpgradeValue": 0.72
+		},
+		{
+			"Id": 11,
+			"Name": "Flame DMG %",
+			"IsPercent": true,
+			"InitValue": 0.65,
+			"MinUpgradeValue": 0.72,
+			"MaxUpgradeValue": 0.72
+		},
+		{
+			"Id": 12,
+			"Name": "Frost DMG %",
+			"IsPercent": true,
+			"InitValue": 0.65,
+			"MinUpgradeValue": 0.72,
+			"MaxUpgradeValue": 0.72
+		},
+		{
+			"Id": 13,
+			"Name": "Phys DMG %",
+			"IsPercent": true,
+			"InitValue": 0.65,
+			"MinUpgradeValue": 0.72,
+			"MaxUpgradeValue": 0.72
+		},
+		{
+			"Id": 14,
+			"Name": "HP",
+			"IsPercent": false,
+			"InitValue": 4125,
+			"MinUpgradeValue": 7480,
+			"MaxUpgradeValue": 18700
+		},
+		{
+			"Id": 15,
+			"Name": "HP %",
+			"IsPercent": true,
+			"InitValue": 0.94,
+			"MinUpgradeValue": 1.08,
+			"MaxUpgradeValue": 1.08
+		},
+		{
+			"Id": 16,
+			"Name": "RES",
+			"IsPercent": false,
+			"InitValue": 64,
+			"MinUpgradeValue": 117,
+			"MaxUpgradeValue": 292
+		},
+		{
+			"Id": 17,
+			"Name": "Volt RES",
+			"IsPercent": false,
+			"InitValue": 215,
+			"MinUpgradeValue": 390,
+			"MaxUpgradeValue": 974
+		},
+		{
+			"Id": 18,
+			"Name": "Flame RES",
+			"IsPercent": false,
+			"InitValue": 215,
+			"MinUpgradeValue": 390,
+			"MaxUpgradeValue": 974
+		},
+		{
+			"Id": 19,
+			"Name": "Frost RES",
+			"IsPercent": false,
+			"InitValue": 215,
+			"MinUpgradeValue": 390,
+			"MaxUpgradeValue": 974
+		},
+		{
+			"Id": 20,
+			"Name": "Phys RES",
+			"IsPercent": false,
+			"InitValue": 215,
+			"MinUpgradeValue": 390,
+			"MaxUpgradeValue": 974
+		},
+		{
+			"Id": 21,
+			"Name": "Volt RES %",
+			"IsPercent": true,
+			"InitValue": 7.87,
+			"MinUpgradeValue": 9,
+			"MaxUpgradeValue": 9
+		},
+		{
+			"Id": 22,
+			"Name": "Flame RES %",
+			"IsPercent": true,
+			"InitValue": 7.87,
+			"MinUpgradeValue": 9,
+			"MaxUpgradeValue": 9
+		},
+		{
+			"Id": 23,
+			"Name": "Frost RES %",
+			"IsPercent": true,
+			"InitValue": 7.87,
+			"MinUpgradeValue": 9,
+			"MaxUpgradeValue": 9
+		},
+		{
+			"Id": 24,
+			"Name": "Phys RES %",
+			"IsPercent": true,
+			"InitValue": 7.87,
+			"MinUpgradeValue": 9,
+			"MaxUpgradeValue": 9
+		},
+		{
+			"Id": 25,
+			"Name": "Crit",
+			"IsPercent": false,
+			"InitValue": 258,
+			"MinUpgradeValue": 468,
+			"MaxUpgradeValue": 1169
+		},
+		{
+			"Id": 26,
+			"Name": "Crit %",
+			"IsPercent": true,
+			"InitValue": 1.05,
+			"MinUpgradeValue": 1.19,
+			"MaxUpgradeValue": 1.19
+		},
+		{
+			"Id": 27,
+			"Name": "Altered ATK",
+			"IsPercent": false,
+			"InitValue": 69,
+			"MinUpgradeValue": 125,
+			"MaxUpgradeValue": 312
+		},
+		{
+			"Id": 28,
+			"Name": "Altered RES",
+			"IsPercent": false,
+			"InitValue": 215,
+			"MinUpgradeValue": 390,
+			"MaxUpgradeValue": 974
+		},
+		{
+			"Id": 29,
+			"Name": "Altered RES %",
+			"IsPercent": true,
+			"InitValue": 7.87,
+			"MinUpgradeValue": 9,
+			"MaxUpgradeValue": 9
+		}
+	],
+
+	"BaseStats": [
+		/* helmet */
+		{
+			"Id": 1,
+			"SlotId": 1,
+			"StatId": 1, // atk
+			"Value1": 112,
+			"Value2": 112,
+			"Value3": 112
+		},
+		{
+			"Id": 2,
+			"SlotId": 1,
+			"StatId": 14, // hp
+			"Value1": 6000,
+			"Value2": 6000,
+			"Value3": 6000
+		},
+
+		// Spaulders
+		{
+			"Id": 5,
+			"SlotId": 2,
+			"StatId": 1, // atk
+			"Value1": 120,
+			"Value2": 144,
+			"Value3": 153
+		},
+		{
+			"Id": 6,
+			"SlotId": 2,
+			"StatId": 14, // hp
+			"Value1": 5400,
+			"Value2": 6480,
+			"Value3": 10320
+		},
+
+		// Suit (Armor)
+		{
+			"Id": 9,
+			"SlotId": 3,
+			"StatId": 16, // res
+			"Value1": 100,
+			"Value2": 110,
+			"Value3": 120
+		},
+		{
+			"Id": 10,
+			"SlotId": 3,
+			"StatId": 14, // hp
+			"Value1": 8600,
+			"Value2": 8600,
+			"Value3": 10320
+		},
+
+		// Handguards
+		{
+			"Id": 13,
+			"SlotId": 4,
+			"StatId": 1, // atk
+			"Value1": 120,
+			"Value2": 144,
+			"Value3": 144
+		},
+		{
+			"Id": 14,
+			"SlotId": 4,
+			"StatId": 14, // hp
+			"Value1": 5400,
+			"Value2": 6505,
+			"Value3": 6505
+		},
+
+		// Belt
+		{
+			"Id": 17,
+			"SlotId": 5,
+			"StatId": 16, // res
+			"Value1": 100,
+			"Value2": 120,
+			"Value3": 120
+		},
+		{
+			"Id": 18,
+			"SlotId": 5,
+			"StatId": 14, // hp
+			"Value1": 5400,
+			"Value2": 10320,
+			"Value3": 10320
+		},
+
+		// Gloves
+		{
+			"Id": 21,
+			"SlotId": 6,
+			"StatId": 1, // atk
+			"Value1": 127,
+			"Value2": 153,
+			"Value3": 153
+		},
+		{
+			"Id": 22,
+			"SlotId": 6,
+			"StatId": 25, // crit
+			"Value1": 300,
+			"Value2": 360,
+			"Value3": 360
+		},
+
+		// Leggings
+		{
+			"Id": 25,
+			"SlotId": 7,
+			"StatId": 16, // res
+			"Value1": 100,
+			"Value2": 120,
+			"Value3": 120
+		},
+		{
+			"Id": 26,
+			"SlotId": 7,
+			"StatId": 14, // hp
+			"Value1": 8600,
+			"Value2": 10320,
+			"Value3": 10320
+		},
+
+		// Boots
+		{
+			"Id": 29,
+			"SlotId": 8,
+			"StatId": 1, // atk
+			"Value1": 120,
+			"Value2": 144,
+			"Value3": 144
+		},
+		{
+			"Id": 30,
+			"SlotId": 8,
+			"StatId": 14, // hp
+			"Value1": 5400,
+			"Value2": 6480,
+			"Value3": 6480
+		},
+
+		// Eyepiece
+		{
+			"Id": 33,
+			"SlotId": 9,
+			"StatId": 16, // res
+			"Value1": 129,
+			"Value2": 129,
+			"Value3": 129
+		},
+		{
+			"Id": 34,
+			"SlotId": 9,
+			"StatId": 14, // hp
+			"Value1": 4320,
+			"Value2": 4320,
+			"Value3": 4320
+		},
+		{
+			"Id": 35,
+			"SlotId": 9,
+			"StatId": 25, // crit
+			"Value1": 129,
+			"Value2": 129,
+			"Value3": 129
+		},
+
+		// Combat Engine
+		{
+			"Id": 39,
+			"SlotId": 10,
+			"StatId": 1, // atk
+			"Value1": 4320,
+			"Value2": 4320,
+			"Value3": 4320
+		},
+		{
+			"Id": 40,
+			"SlotId": 10,
+			"StatId": 14, // hp
+			"Value1": 129,
+			"Value2": 129,
+			"Value3": 129
+		},
+
+		// Exoskeleton
+		{
+			"Id": 43,
+			"SlotId": 11,
+			"StatId": 1, // atk
+			"Value1": 107,
+			"Value2": 107,
+			"Value3": 107
+		},
+		{
+			"Id": 44,
+			"SlotId": 11,
+			"StatId": 14, // hp
+			"Value1": 6420,
+			"Value2": 6420,
+			"Value3": 6420
+		},
+
+		// Microreactor
+		{
+			"Id": 47,
+			"SlotId": 12,
+			"StatId": 1, // atk
+			"Value1": 85,
+			"Value2": 102,
+			"Value3": 102
+		},
+		{
+			"Id": 48,
+			"SlotId": 12,
+			"StatId": 16, // res
+			"Value1": 20,
+			"Value2": 24,
+			"Value3": 24
+		},
+		{
+			"Id": 49,
+			"SlotId": 12,
+			"StatId": 14, // hp
+			"Value1": 6840,
+			"Value2": 8208,
+			"Value3": 8208
+		}
+	],
+
+	"PossibleTitanStats": [
+		{
+			"Id": 1,
+			"Name": "Delay",
+			"Slots": [ 3, 4, 6 ]
+		},
+		{
+			"Id": 2,
+			"Name": "Increased Healing",
+			"Slots": [ 3, 4, 6 ]
+		},
+		{
+			"Id": 3,
+			"Name": "Normal Attack Damage Boost",
+			"Slots": [ 6, 7, 8 ]
+		},
+		{
+			"Id": 4,
+			"Name": "Skill Damage Boost",
+			"Slots": [ 4, 6, 8 ]
+		},
+		{
+			"Id": 5,
+			"Name": "Damage Boost",
+			"Slots": [ 6 ]
+		},
+		{
+			"Id": 6,
+			"Name": "Weak Point Damage Boost",
+			"Slots": [ 3, 4, 6 ]
+		},
+		{
+			"Id": 7,
+			"Name": "Discharge Damage Boost",
+			"Slots": [ 3, 4, 12 ]
+		},
+		{
+			"Id": 8,
+			"Name": "Damage Boost",
+			"Slots": [ 3, 4 ]
+		},
+		{
+			"Id": 9,
+			"Name": "Dodge Attack Damage Boost",
+			"Slots": [ 3, 7, 12 ]
+		},
+		{
+			"Id": 10,
+			"Name": "Lifesteal",
+			"Slots": [ 7, 8, 12 ]
+		},
+		{
+			"Id": 11,
+			"Name": "HP Recovery",
+			"Slots": [ 7, 8, 12 ]
+		},
+		{
+			"Id": 12,
+			"Name": "Block",
+			"Slots": [ 7, 8, 12 ]
+		},
+		{
+			"Id": 13,
+			"Name": "Damage Reduction",
+			"Slots": [ 7, 8, 12 ]
+		}
+	],
+
+	"StatLinks": [
+		{
+			"Id": 1,
+			"ElemStat": 2,
+			"CommonStat": 1,
+			"PercentStat": 6,
+			"DamageStat": 10
+		},
+		{
+			"Id": 2,
+			"ElemStat": 3,
+			"CommonStat": 1,
+			"PercentStat": 7,
+			"DamageStat": 11
+		},
+		{
+			"Id": 3,
+			"ElemStat": 4,
+			"CommonStat": 1,
+			"PercentStat": 8,
+			"DamageStat": 12
+		},
+		{
+			"Id": 4,
+			"ElemStat": 5,
+			"CommonStat": 1,
+			"PercentStat": 9,
+			"DamageStat": 13
+		},
+		{
+			"Id": 5,
+			"ElemStat": 27,
+			"CommonStat": 1,
+			"PercentStat": null,
+			"DamageStat": null
+		},
+		{
+			"Id": 6,
+			"ElemStat": 17,
+			"CommonStat": 16,
+			"PercentStat": 21,
+			"DamageStat": null
+		},
+		{
+			"Id": 7,
+			"ElemStat": 18,
+			"CommonStat": 16,
+			"PercentStat": 22,
+			"DamageStat": null
+		},
+		{
+			"Id": 8,
+			"ElemStat": 19,
+			"CommonStat": 16,
+			"PercentStat": 23,
+			"DamageStat": null
+		},
+		{
+			"Id": 9,
+			"ElemStat": 20,
+			"CommonStat": 16,
+			"PercentStat": 24,
+			"DamageStat": null
+		}
+	]
+	
+}
